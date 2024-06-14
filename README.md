@@ -24,7 +24,7 @@ This task displays the temperature being read by the temperature sensor. The LCD
 3.	Temperature monitoring:  
 The Edubase V2 board has a commercial temperature sensor on-board (LM45), connected to PE5 (AIN8 in the fig. below) of the ADC port. The LM45 has an operating range of -20degC to 100degC, and is accurate within 2oC, so it is perfectly suited for our task of monitoring room temperature. The temperature sensor outputs a voltage proportional to the temperature in degree Celsius. This is an analog voltage that is converted to a digital value by the ADC connected to port E. This voltage value is then converted into a temperature value by multiplying it with a constant. 
 
-
+https://youtube.com/shorts/mxKSksMRdLQ?si=BEHZy_Kr5yB6QxUk
 
 As demonstrated in the video, the project successfully controls the speed of the motor based on the temperature read by the temperature sensor. Further, by reducing the cycle time of each task and reducing the time-slice to a suitably small value, I improved the responsiveness of the system.
 
