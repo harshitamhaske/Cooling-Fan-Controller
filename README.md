@@ -26,7 +26,7 @@ The Edubase V2 board has a commercial temperature sensor on-board (LM45), connec
 
 [![Watch the video](https://img.youtube.com/vi/mxKSksMRdLQ/maxresdefault.jpg)](https://youtube.com/shorts/mxKSksMRdLQ?si=BEHZy_Kr5yB6QxUk)
 
-As demonstrated in the video, the project successfully controls the speed of the motor based on the temperature read by the temperature sensor. Further, by reducing the cycle time of each task and reducing the time-slice to a suitably small value, I improved the responsiveness of the system.
+As demonstrated in the video, the project successfully controls the speed of the motor based on the temperature read (> 27deg C) by the temperature sensor. Further, by reducing the cycle time of each task and reducing the time-slice to a suitably small value, I also improved the responsiveness of the system.
 
 
 References 
